@@ -72,6 +72,7 @@ async def filter(client: Bot, message: Message):
 
         await message.reply_text(
                 f"""🔸<a href"http://gestyy.com/eiRufX">RESULT</a> {message.text}""",
+                parse_mode = "HTML",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )    
 
