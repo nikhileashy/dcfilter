@@ -5,6 +5,7 @@
 
 import re
 import pyrogram
+import html
 
 from pyrogram import (
     filters,
@@ -70,7 +71,7 @@ async def filter(client: Bot, message: Message):
         )
 
         await message.reply_text(
-                f"""🔸[Here is the result for](http://gestyy.com/eiRufX) {message.text}""",
+                f"""🔸<a href"http://gestyy.com/eiRufX">RESULT</a> {message.text}""",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )    
 
