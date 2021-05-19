@@ -70,7 +70,7 @@ async def filter(client: Bot, message: Message):
         )
 
         await message.reply_text(
-                f"""🔸[Here is the result for {message.text} ](http://gestyy.com/eiRufX)""",
+                f"""🔸[Here is the result for](http://gestyy.com/eiRufX) {message.text}""",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )    
 
