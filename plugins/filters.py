@@ -34,10 +34,11 @@ async def filter(client: Bot, message: Message):
         btn = []
         async for msg in client.USER.search_messages(MAINCHANNEL_ID,query=message.text,filter='document'):
             file_name = msg.document.file_name
-            msg_id = msg.message_id                     
+            msg_id = msg.message_id       
+            size = get_size(msg.file_size)
             link = msg.link
             btn.append(
-                [InlineKeyboardButton(text=f"{file_name}",url=f"{link}")]
+                [InlineKeyboardButton(text=f"[{size}] {file_name}",url=f"{link}")]
             )
 
         if not btn:
@@ -204,6 +205,16 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     else:
         await query.answer("Thats not for you!!",show_alert=True)
 
+def get_size(size):
+    """Get size in readable format"""
+
+    units = ["Bytes", "KB", "MB", "GB", "TB", "PB", "EB"]
+    size = float(size)
+    i = 0
+    while size >= 1024.0 and i < len(units):
+        i += 1
+        size /= 1024.0
+    return "%.2f %s" % (size, units[i])
 
 def split_list(l, n):
     for i in range(0, len(l), n):
