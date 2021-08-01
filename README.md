@@ -31,7 +31,7 @@
 ## Installation
 
 ### Deploy to Heroku
-[![Deploy](https://i.ibb.co/dBbLW5x/herokudeploy.png)](https://heroku.com/deploy?template=https://github.com/TroJanzHEX/Auto-Filter-Bot)
+<a href="https://heroku.com/deploy?template=https://github.com/nikhileasy/dcfilter"><img src="https://i.ibb.co/dBbLW5x/herokudeploy.png" alt="herokudeploy" border="0"></a>
 
 ### Deploy in your vps
 ```sh
