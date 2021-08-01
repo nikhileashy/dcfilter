@@ -31,7 +31,7 @@
 ## Installation
 
 ### Deploy to Heroku
-<a href="https://heroku.com/deploy?template=https://github.com/nikhileasy/dcfilter"><img src="https://i.ibb.co/dBbLW5x/herokudeploy.png" alt="herokudeploy" border="0"></a>
+<a href="https://heroku.com/deploy?template=https://github.com/nikhileasy/dcfilter"><img src="https://i.ibb.co/dBbLW5x/herokudeploy.png" alt="herokudeploy" border="0">height="48" width="60"</a>
 
 ### Deploy in your vps
 ```sh
