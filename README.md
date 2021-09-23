@@ -1,7 +1,4 @@
-This is just a clone of [TroJanzHEX
-/
-Auto-Filter-Bot]
-(https://github.com/TroJanzHEX/Auto-Filter-Bot) 🤣. so don't waste your time by depoying this
+This is just a clone of [TroJanzHEX-Auto-Filter-Bot](https://github.com/TroJanzHEX/Auto-Filter-Bot) 🤣. so don't waste your time by depoying this
 
 
 ## Installation
