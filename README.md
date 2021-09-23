@@ -1,31 +1,7 @@
-# Auto Filter Bot
-
-<p align="center">
-  <a href="https://www.python.org">
-    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
-
-
-  </a>  
-</p>
-
-## TO USE THE IMDB FEATURE FOLLOW ME AND STAR MY 10 REPOS 😎
-
-
-
-
-#### You can call this as an Auto Filter Bot if you like :D
-#### Bot simply search for the files from provided channel according to given query and gives link to those files as buttons!
-
-## How to use the bot
-* Add user account to your channel !
-* Add bot to group with admin rights.
-* Deploy the bot.
-* Once deployed and bot is started, send a message to channel (must do step)
-* Bot will work now :)
-
-
-
-## Any bugs or errors or suggestions, report at [N A C BOTS](https://telegram.dog/nacbots)
+This is just a clone of [TroJanzHEX
+/
+Auto-Filter-Bot]
+(https://github.com/TroJanzHEX/Auto-Filter-Bot) 🤣. so don't waste your time by depoying this
 
 
 ## Installation
