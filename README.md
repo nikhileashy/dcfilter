@@ -5,7 +5,7 @@ This is just a clone of [TroJanzHEX-Auto-Filter-Bot](https://github.com/TroJanzH
 
 ### Deploy to Heroku
 <a href='https://svgshare.com/s/ZiE' ><img src='https://svgshare.com/i/ZiE.svg' title='' /></a>
-<a href="https://heroku.com/deploy?template=https://github.com/nikhileasy/dcfilter"><img src="https://svgshare.com/s/ZiE" alt="image-processing20210405-32501-doifx3" border="0" height="60" width="200" align="center" /></a>
+
 ### Deploy in your vps
 ```sh
 git clone https://github.com/nikhil/dcfilter
